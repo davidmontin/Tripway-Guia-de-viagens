@@ -4,7 +4,7 @@ Projeto acadêmico desenvolvido para a disciplina, estruturado em HTML semântic
 
 ## Autores
 * David Montin - RM574719
-* Sarah Montin - RM575620
+* Sarah Montin - RM574721
 
 ## Tecnologias Utilizadas
 * HTML5 (Tags semânticas: `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`)
