@@ -5,7 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TripWay - Contato e Reserva</title>
 </head>
-<body>gi
-    
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="destinos.html">Destinos</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Entre em contato</h1>
+        <p>Preencha o formulário abaixo para entrar em contato com a TripWay ou solicitar uma reserva.</p>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+
+            <label for="destino">Destino de interesse:</label>
+            <select name="destino" id="destino">
+                <option value="italia">Itália</option>
+                <option value="franca">França</option>
+                <option value="espanha">Espanha</option>    
+            </select>
+            <label for="data">Data de viagem:</label>
+            <input type="date" id="data" name="data">
+
+            <label for="pessoas">Número de pessoas:</label>
+            <input type="number" id="pessoas" name="pessoas">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+            <button type="submit">Enviar</button>
+            
+        </form>
+    </main>
 </body>
 </html>
